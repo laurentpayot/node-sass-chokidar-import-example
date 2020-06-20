@@ -1,0 +1,24 @@
+{
+  "name": "sass-chokidar-import-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:style": "node-sass-chokidar style/main.sass main.css --include-path node_modules --source-map-embed --source-map-contents --watch",
+    "start": "npm run watch:style"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurentpayot/node-sass-chokidar-import-example.git"
+  },
+  "author": "Laurent Payot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurentpayot/node-sass-chokidar-import-example/issues"
+  },
+  "homepage": "https://github.com/laurentpayot/node-sass-chokidar-import-example#readme",
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass-chokidar": "^1.5.0"
+  }
+}
